@@ -1,0 +1,117 @@
+.body1{
+    background-color: #008080;
+     
+     height: 100%;
+     width: 100%;
+ }
+
+ .first{
+     color: white;
+     text-align: center;
+
+
+     background-color: #008080;
+     padding-top: 0%;
+ }
+ .left{
+     margin-top: 5px;
+     background-color: #008080;
+     float: left;
+     height: 600px;
+     width:40.3%;
+     border: 3px solid #ffffff;
+     border-right: none;
+     
+ }
+ .right
+ {
+ 
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-top: 5px;
+     background-color: white;
+     float: right;
+     height: 600px;
+     width: 59%;
+     border: 3px solid #ffffff;
+ 
+     
+ }
+ .text{
+     margin-left: 40px;
+     display: flex;
+     margin-top: auto;
+     
+ }
+ .text1{
+     margin-left: 40px;
+     display: flex;
+     margin-top: auto;
+ }
+ #text{
+     text-align: left;
+     margin-left: auto;
+ }
+ button{
+     font-size: large;
+     margin-left: 700px;
+     padding-top: 0%;
+     
+ }
+ #name2{
+     margin-top: 5px;
+     height: 350px;
+     width: 90%;
+     border: 3px solid #008080;
+     margin-left: 40px;
+     display: flex;
+     margin-top: auto;
+     border-radius: 3px;
+     font-size: x-large;
+ }
+ #name{
+     font-size: x-large;
+     border: 3px solid #008080;
+     margin-left: 40px;
+     border-radius: 3px;
+ }
+ #subject{
+     font-size: large;
+     border: 3px solid #008080;
+     margin-left: 30px;
+     border-radius: 3px;
+ }
+ #question{
+     font-size: large;
+     border: 3px solid #008080;
+     margin-left: 30px;
+     border-radius: 3px;
+ }
+ .jsdiv{
+     height: 90px;
+     background-color: #f7f9f9;
+     color:#008080;
+     margin-top: 15px;
+ 
+ }
+ .jsdiv h1{
+     text-align: center;
+     margin-top: 2px;
+     padding-top: 2px;
+     color: black;
+ }
+ .jsdiv p{
+     padding-bottom: 10px;
+     margin-left: 20px;
+     color: #013b3b;
+ }
+ .inpu{
+     padding: 10px;
+     height: 50px;
+     background-color: white;
+     color:#008080;
+     
+ }
+ .div2{
+     display: none;
+ }
+ 

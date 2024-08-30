@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HARKIRAT KAUR</title>
+    <script>
+        let state="sleep";
+        function image()
+        {
+            if(state=="awake")
+            {
+                img.src="https://t4.ftcdn.net/jpg/01/25/86/35/360_F_125863509_jaISqQt7MOfhOT3UxRTHZoEbMmmFYIr8.jpg"
+                state="sleep";
+            }
+            else{
+                img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG2W24zbvlh6eu0e4LB6R8h4KdLtTmS_s8mAg0cprNjA&s"
+                img.height=200
+                img.width=200
+                state="awake";
+            }
+        }
+    </script>
+</head>
+<body>
+    <img onclick ="image()" id="img" src="https://t4.ftcdn.net/jpg/01/25/86/35/360_F_125863509_jaISqQt7MOfhOT3UxRTHZoEbMmmFYIr8.jpg">
+    
+</body>
+</html>

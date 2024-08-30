@@ -1,0 +1,109 @@
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid rgb(210, 206, 206);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #252323;
+  }
+  .data{
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(11, 11, 131);
+    color: white;
+    margin-bottom: auto;
+    
+  }
+  .tr1{
+    background-color:  #252323;
+    color: white;
+  }
+  
+  /*List Style */
+  
+  .body56 {
+    font-family: Arial, sans-serif;
+  }
+  
+  .speech {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #f70606;
+    border-radius: 10px;
+    background-color:  #ebe8f5;
+  }
+  
+  .speech h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .speech ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .speech ul li {
+    margin-bottom: 10px;
+  }
+  
+  .speech ol {
+    padding-left: 20px;
+  }
+  /*form style */
+  
+  .bodyap {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  

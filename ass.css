@@ -1,0 +1,244 @@
+nav
+{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    font-size:large;
+    word-spacing: 10px;
+    margin-top: 10px;
+    
+}
+.menu{
+    text-decoration: none;
+}
+
+a:link{
+    color:black;
+}
+
+a:hover{
+    color:rgb(210, 45, 8);
+}
+
+.search{
+    float:right;
+    height:23px;
+    margin-left:5px;
+    margin-top: 25px;
+}
+
+#parent{
+    height:300px;
+    width:100%;
+    background-image: url('vegetables.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#head{
+    margin-left: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-large;
+    color: rgb(81, 202, 218);
+    letter-spacing: -2px;
+}
+
+#head1{
+    margin-left: 655px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#para{
+    text-align: center;
+    word-spacing: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 420px;
+}
+
+#parent1{
+    padding-top: 10px;
+    height:450px;
+    width:100%;
+    background-color: lightgray;
+}
+
+#head2
+{
+    font-size: 30px;
+    word-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(154, 68, 107);
+    font-weight: bolder;
+    letter-spacing: -3px;
+}
+
+.service{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 190px;
+}
+
+#div2{
+    height:300px;
+    width:100%;
+    background-color: rgb(243, 243, 243);
+}
+
+#div3{
+    display: flex;
+}
+
+.box{
+    height: 150px;
+    width: 350px;
+    border-style: solid;
+    background-color: white;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.boxp{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-inline-start: 15px;
+}
+
+.boxh{
+    padding-left: 15px;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
+#rating{
+    display: flex;
+}
+#box1{
+    margin:20px 25px 25px 15px;
+    height:200px;
+    width:150px;
+    border:2px solid gray;
+}
+
+#box2{
+    margin:20px 25px 25px 15px;
+    height:200px;
+    width:150px;
+    border:2px solid gray;
+}
+
+#box3{
+    margin:20px 25px 25px 15px;
+    height:200px;
+    width:150px;
+    border:2px solid gray;
+}
+
+#box7{
+    margin:20px 40px 25px 15px;
+    height:200px;
+    width:150px;
+    border:2px solid gray;
+}
+
+#rating2{
+    display:flex;
+}
+
+#box4{
+    margin:20px 40px 25px 220px;
+    height:200px;
+    width:150px;
+    border:2px solid gray;
+}
+#box5{
+    margin:20px 25px 25px 15px;
+    height:200px;
+    width:150px;
+    border:2px solid gray;
+}
+#box6{
+    margin:20px 25px 25px 15px;
+    height:200px;
+    width:150px;
+    border:2px solid gray;
+}
+
+tr,th{
+    height:50px;
+    width:280px;
+}
+
+#vegetables,th,tr,td{
+    margin-left: 50px;
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+td{
+    padding-left: 15px;
+}
+#rate{
+    display:flex;
+}
+#fruits{
+    margin-left: 40px;
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: rgb(218, 218, 218);
+}
+th{
+    background-color: rgb(35, 220, 122);
+}
+h5{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+h1{
+    border:1px solid blueviolet
+}
+#comment{
+    height: 50px;
+    width:100%;
+}
+#select{
+    width:100%;
+}
+#submit{
+    height: 50px;
+    width:50px;
+}
+#contact{
+    gap: 50px;
+    background-color: rgb(149, 71, 118);
+    display: flex;
+    gap: 400px;
+    color: white;
+}
+#contact {
+}
+.shopping{
+    color: rgb(133, 168, 136);
+    font-family: cursive;
+    margin: 10px;
+}
+h1{
+    color: rgb(123, 36, 123);
+
+}
+h2{
+    color: rgb(98, 188, 128);
+}
+#feedback{
+    size: 90px;
+}
+.xx{
+    background-color: white;
+}
+.xy{
+    background-color: rgb(243, 238, 238);
+}

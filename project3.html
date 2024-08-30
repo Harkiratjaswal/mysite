@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="project3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body1">
+    <div
+    class="cont">
+    
+    <div class="first">
+         <h1>Discussion Portal</h1>
+    </div>
+    
+    <div class="left" id="leftdiv">
+            <div class="inpu">
+            <input type="text" name="name" id="subject" placeholder="New Question Form..." required>
+            <input type="text" name="name" id="question" placeholder="Search Question..." required>
+        </div> 
+    </div>
+    </div>
+    <div class="funct">
+    <div class="right">
+        <h1 class="text">Welcome to Discussion Portal !</h1>
+        <p class="text1"> Enter a subject and question to get starts
+        </p>
+        <form class="place"><br>
+                <input type="text" name="name" id="name" placeholder="Enter Subject..." required>
+        </form><br>
+       <textarea name="name2" id="name2"  placeholder="Enter Question..."></textarea><br>
+    <button id="submit">Sumbit</button></div></div></div>
+
+    <script>
+        let subm = document.querySelector("#submit");
+        let subject=document.querySelector("#name");
+        let textarea=document.querySelector("#name2");
+        let div1=document.querySelector("#leftdiv");
+
+        console.log(subm);
+        
+        subm.addEventListener('click',function(){
+            console.log('button was cliked');
+        
+            let div=document.createElement("div");
+            div.setAttribute("class","jsdiv")
+            let p=document.createElement("p");
+            let h1=document.createElement("h1");
+            h1.innerHTML=subject.value;
+            p.innerHTML=textarea.value;
+            div.appendChild(h1);
+            div.appendChild(p);
+            div1.appendChild(div);
+            
+            subject.value = "";
+            textarea.value = "";
+        });
+    </script>
+    
+    
+</body>
+</html>

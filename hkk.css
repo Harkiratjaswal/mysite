@@ -1,0 +1,27 @@
+.container{
+    display: block;
+    position: relative;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.container input{
+    opacity: 0;
+}
+.title{
+    position: absolute;
+    top:3px;
+    height: 20px;
+    width: 24px;
+    left: 0;
+    background-color: rgb(177, 207, 240);
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+}
+.container:hover input~.title{
+    background-color: skyblue;
+}
+.container input:checked ~.title{
+    background-color: palegreen;
+     background-size: cover;
+     background-repeat: no-repeat;
+}

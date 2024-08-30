@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Portal</title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Discussion Portal</h1>
+        </header>
+        <nav>
+            <button id="newQuestionBtn">New Question Form</button>
+            <input type="text" id="searchBox" placeholder="Search questions...">
+        </nav>
+        <aside>
+            <ul id="questionsList">
+                <li>
+                    <div class="question">
+                        <span class="question-title">What is JavaScript</span>
+                        <span class="question-time">since 20 hours</span>
+                    </div>
+                    <div class="question-subject">JavaScript</div>
+                </li>
+                <li>
+                    <div class="question">
+                        <span class="question-title">What is Java</span>
+                        <span class="question-time">since 18 hours</span>
+                    </div>
+                    <div class="question-subject">Java</div>
+                </li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Welcome to Discussion Portal !</h2>
+            <form id="questionForm">
+                <label for="subjectInput">Enter a subject and question to get started</label>
+                <input type="text" id="subjectInput" placeholder="Enter Subject...">
+                <textarea id="questionInput" placeholder="Enter Questions"></textarea>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </main>
+    </div>
+    <script src="project2.js"></script>
+</body>
+
+</html>

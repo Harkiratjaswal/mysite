@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #008080;
+}
+.h1{
+    text-align: center;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+}
+input{
+    border: 2px solid #008080;
+    height: 2.5rem;
+    width: 13rem;
+    margin-bottom: 1rem;
+    padding-left: 0.8rem;
+}
+#div1{
+    width: 45%;
+}
+#div2{
+    width: 54%;
+    background-color: white;
+    padding-left: 1.5rem;
+    padding-top: 0.7rem;
+    line-height: 2rem;
+    padding-bottom: 5px;
+    padding-right: 1rem;
+}
+#question{
+    border: 2px solid #008080;
+    height: 15rem;
+    width: 90%;
+    padding-left: 0.7rem;
+    padding-top: 0.6rem;
+}
+.btn1{
+    background-color: white;
+    height: 4rem;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 1rem;
+}
+button{
+    border: 2px solid #008080;
+    width: 9rem;
+    height: 2rem;
+}
+#sub{
+    float: right;
+}
+.childs{
+    height: 4rem;
+    background-color: white;
+    margin-top: 10px;
+}
+.childs h1{
+    text-align: center;
+}
+#respo
+{
+    height: 100px;
+    width: 80%;
+    margin-top: 15px;
+}
+#responses{
+    width: 80%;
+    overflow:scroll ;
+    height: 100px;
+}
+#res-btn{
+    float: right;
+    margin-top: 10px;
+}
+#res{
+    background-color: #008080;
+    color: white;
+}

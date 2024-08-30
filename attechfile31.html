@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="attech3file.css">
+  <title>Countries Data Form</title>
+    
+</head>
+<body class="bodyap">
+  <div class="container">
+    <h2>Countries Data Form</h2>
+    <form id="countriesForm">
+      <div class="form-group">
+        <label for="countryName">Country Name:</label>
+        <input type="text" id="countryName" name="countryName" required>
+      </div>
+      <div class="form-group">
+        <label for="population">Population:</label>
+        <input type="number" id="population" name="population" required>
+      </div>
+      <div class="form-group">
+        <label for="capital">Capital:</label>
+        <input type="text" id="capital" name="capital" required>
+      </div>
+      <div class="form-group">
+        <label for="continent">Continent:</label>
+        <select id="continent" name="continent" required>
+          <option value="">Select Continent</option>
+          <option value="Asia">Asia</option>
+          <option value="Africa">Africa</option>
+          <option value="North America">North America</option>
+          <option value="South America">South America</option>
+          <option value="Europe">Europe</option>
+          <option value="Australia">Australia</option>
+          <option value="Antarctica">Antarctica</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

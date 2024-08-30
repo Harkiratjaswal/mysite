@@ -1,0 +1,218 @@
+.A{
+    margin-top: 50px;
+    width: 1190px;
+  }
+  .D{
+      border:1px solid rgba(128, 128, 128, 0.53);
+      border-radius: 7px;
+      display: inline-block;
+  }
+  .u{
+      font-family: cursive;
+      color: rgb(255, 47, 47);
+      margin-left: 200px;
+      position: absolute; 
+      top:20px;
+      font-size: xx-large;
+  }
+  .B,.M,.K{
+      text-decoration: none;
+  
+  }
+  .SA{
+      text-decoration: none;
+      position: absolute;
+      bottom:340px;
+      LEFT:320PX;
+  }
+  
+  .v{
+      font-family: cursive;
+      color: rgb(255, 47, 47);
+      position:absolute;
+      right:200px;
+      top:70px;
+  }
+  .w{
+      margin-left: 900px;
+      margin-top: 80px;
+  }
+  .a{
+      font-family: cursive;
+      color: greenyellow;
+      margin-left: 500px;
+  }
+  .b{
+      margin-left: 500px;
+  }.c{
+      margin-left:300px;
+  }
+  .d{
+      margin-left:300px;
+     
+  }
+  .e{
+      font-family: cursive;
+      color: greenyellow;
+  }
+  .f,.s{
+      margin-left:450px;
+  }
+  .g{
+      height:120px;
+      width:200px;
+      border:1px solid rgba(128, 128, 128, 0.418);
+      display:inline-block;
+      padding: 2px;
+      margin-left: 100px;
+      border-radius: 7px;
+      background-color:white;
+      
+  }
+  #co{
+      padding:50px;
+      padding-right: 500px;
+  }
+  .B{
+      position: absolute;
+      bottom:340px;
+  }
+  .M{
+      position: absolute;
+      bottom:340px;
+      LEFT:100PX;
+  }
+  .K{
+      position: absolute;
+      bottom:340px;
+      LEFT:170PX; 
+  }
+  .C{
+     display:inline-block
+  }
+  
+  .F{
+  display: inline-block;
+  }
+  .fr{
+      height:350px;
+      width:350px;
+  }
+  
+  .h{
+      height:120px;
+      width:200px;
+      border:1px solid rgba(128, 128, 128, 0.516);
+      display:inline-block ;
+      padding: 2px;
+      margin-left: 150px;
+      border-radius: 7px;
+      background-color:white;
+      
+  }
+  .i{
+      height:120px;
+      width:200px;
+      border:1px solid rgba(128, 128, 128, 0.53);
+      display:inline-block ;
+      padding: 2px;
+      margin-left: 150px;
+      border-radius: 7px;
+      background-color:white;
+  }
+  .j{
+      height:250px;
+      width:200px;
+      border:1px solid rgba(128, 128, 128, 0.53);
+      margin-top: 50px;
+      margin-left: 130px;
+      border-radius: 7px;
+      display: inline-block;
+     
+  }
+  .k{
+      margin-left: 50px;
+      font-size: larger;
+      font-style: italic;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+  }
+  .l{
+      height:250px;
+      width:200px;
+      border:1px solid rgba(128, 128, 128, 0.53);
+      margin-top: 50px;
+      margin-left: 70px;
+      border-radius: 7px;
+      display: inline-block;
+  }
+  .m,.o{
+      margin-left: 30px;
+      font-size: larger;
+      font-style: italic;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .n{
+      height:250px;
+      width:200px;
+      border:1px solid rgba(128, 128, 128, 0.53);
+      margin-top: 50px;
+      margin-left: 70px;
+      border-radius: 7px;
+      display: inline-block;
+  }
+  table{
+      height:100px;
+      width:500px;
+      margin-left: 200px;
+      margin-top: 100px;;
+      border-collapse: collapse;
+  }
+  .p{
+      background-color:aquamarine;
+      
+  }
+  TD{
+      
+      PADDING:30PX;
+  }
+  TR{
+      background-color:aliceblue;
+  }
+  .t{
+      padding-right: 600px;
+  }
+  #P{
+      padding-right: 600px;
+  }
+  .r{
+      font-family: cursive;
+      color: greenyellow;
+      margin-left: 400px;
+  }
+  .x{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: chartreuse;
+  display: inline-block;
+  margin-left: 50PX;;
+  }
+  .y{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: chartreuse;
+      display: inline-block;
+      margin-left: 150PX;
+  }
+  .z{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: chartreuse;
+      display: inline-block;
+      margin-left: 200PX;
+  }
+  .X{
+      background-color: black;
+      margin-top: 70PX;
+  }
+  .E{
+      color:darkgray
+  }
+  
